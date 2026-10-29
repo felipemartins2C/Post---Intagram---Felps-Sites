@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111d2a"/><stop offset="1" stop-color="#263b4c"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9e7ef" stop-opacity=".95"/><stop offset="1" stop-color="#91b3c8" stop-opacity=".45"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#243e50"/><stop offset="1" stop-color="#101c29"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#050b12" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1080" height="1350" fill="#f0eee8"/>
+<rect width="1080" height="790" fill="url(#bg)"/>
+<circle cx="920" cy="130" r="240" fill="#7796a8" opacity=".13"/>
+<path d="M610 0H1080V790H690Z" fill="#d8e1e3" opacity=".08"/>
+<path d="M700 0L1080 0L1080 790L890 790Z" fill="#a4c1cf" opacity=".09"/>
+<text x="72" y="78" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="9" fill="#f4f3ee">FELPS SITES</text>
+<path d="M72 105H160" stroke="#87b6d4" stroke-width="3"/>
+<text x="72" y="183" font-family="Arial,Helvetica,sans-serif" font-size="23" letter-spacing="3" fill="#a9c6d8">PRESENÇA DIGITAL QUE</text>
+<text x="72" y="252" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="59" fill="#ffffff">PASSA</text>
+<text x="72" y="320" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="59" fill="#ffffff">CONFIANÇA.</text>
+<text x="72" y="378" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#d8e2e8">Seu site pode transformar</text>
+<text x="72" y="416" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#d8e2e8">interesse em contato.</text>
+<!-- Abstract digital storefront / interface panel -->
+<g filter="url(#shadow)" transform="translate(500 448)">
+ <rect x="0" y="0" width="500" height="270" rx="18" fill="#0b1520" stroke="#8bb1c8" stroke-width="2"/>
+ <rect x="18" y="18" width="464" height="234" rx="10" fill="url(#screen)"/>
+ <circle cx="38" cy="37" r="4" fill="#b7d0dc"/><circle cx="53" cy="37" r="4" fill="#b7d0dc" opacity=".65"/><circle cx="68" cy="37" r="4" fill="#b7d0dc" opacity=".35"/>
+ <text x="42" y="77" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2" fill="#a9c6d8">SUA MARCA</text>
+ <rect x="42" y="98" width="196" height="9" rx="4" fill="#eaf0f2"/>
+ <rect x="42" y="119" width="158" height="7" rx="3" fill="#8caabb"/>
+ <rect x="42" y="136" width="176" height="7" rx="3" fill="#8caabb" opacity=".7"/>
+ <rect x="42" y="166" width="142" height="34" rx="17" fill="#c5dce7"/>
+ <text x="61" y="188" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" fill="#172a39">FALE CONOSCO ↗</text>
+ <path d="M270 221L270 92L305 65L343 92L343 221Z" fill="#6d91a5" opacity=".45"/>
+ <path d="M347 221L347 120L385 91L422 120L422 221Z" fill="#a4c3d2" opacity=".35"/>
+ <path d="M272 92L305 65L343 92M347 120L385 91L422 120" fill="none" stroke="#d4e3e9" stroke-width="2"/>
+ <path d="M289 221V112M324 221V112M366 221V140M403 221V140" stroke="#d4e3e9" stroke-width="2" opacity=".6"/>
+</g>
+<text x="72" y="520" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing="2" fill="#a9c6d8">UM BOM SITE AJUDA A SUA EMPRESA A</text>
+<g transform="translate(72 558)">
+ <circle cx="19" cy="19" r="19" fill="#35576b"/><path d="M10 19L16 25L28 12" fill="none" stroke="#eef4f5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="55" y="15" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#ffffff">Transmitir profissionalismo</text>
+ <text x="55" y="43" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#d0dfe6">Informações claras e apresentação consistente.</text>
+</g>
+<g transform="translate(72 638)">
+ <circle cx="19" cy="19" r="19" fill="#35576b"/><path d="M11 12H27V23H19L14 28V23H11Z" fill="none" stroke="#eef4f5" stroke-width="2.5" stroke-linejoin="round"/>
+ <text x="55" y="15" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#ffffff">Facilitar novos contatos</text>
+ <text x="55" y="43" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#d0dfe6">Serviços, localização e canais de contato acessíveis.</text>
+</g>
+<!-- Lower section -->
+<text x="72" y="852" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing="3" fill="#526b7a">MAIS DO QUE ESTAR ONLINE</text>
+<text x="72" y="914" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="43" fill="#172a39">É facilitar o próximo passo.</text>
+<text x="72" y="966" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#425562">Um site bem planejado ajuda as pessoas a entender</text>
+<text x="72" y="1002" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#425562">o que você oferece e como falar com sua empresa.</text>
+<rect x="72" y="1060" width="936" height="150" rx="22" fill="#dce5e7"/>
+<text x="112" y="1115" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="2" fill="#526b7a">VAMOS TIRAR SUA IDEIA DO PAPEL?</text>
+<text x="112" y="1166" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="31" fill="#172a39">Converse com a FELPS Sites.</text>
+<circle cx="940" cy="1135" r="31" fill="#243f51"/><path d="M925 1135H952M941 1124L952 1135L941 1146" stroke="#f0f4f4" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M72 1260H1008" stroke="#b9c8cd" stroke-width="2"/>
+<text x="72" y="1300" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="5" fill="#526b7a">FELPS SITES</text>
+<text x="1008" y="1300" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#526b7a">DESIGN • TECNOLOGIA • PRESENÇA DIGITAL</text>
+</svg>
