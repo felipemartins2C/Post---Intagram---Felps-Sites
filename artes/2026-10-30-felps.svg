@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9f5ec"/><stop offset="1" stop-color="#e8efe7"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#24463c" flood-opacity=".14"/></filter>
+</defs>
+<rect width="1080" height="1350" fill="url(#wall)"/>
+<circle cx="895" cy="270" r="180" fill="#f0cb70" opacity=".78"/>
+<circle cx="895" cy="270" r="215" fill="none" stroke="#e6b958" stroke-width="2" stroke-dasharray="4 12" opacity=".6"/>
+<path d="M0 540 Q210 490 380 540 T760 540 T1080 520 V1350 H0Z" fill="#dfe9df" opacity=".48"/>
+<text x="76" y="82" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="5" fill="#173d35">FELPS SITES</text>
+<text x="1004" y="82" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="2" fill="#54746a">SITES • SISTEMAS • APLICATIVOS</text>
+<path d="M76 112H160" stroke="#e57d60" stroke-width="6" stroke-linecap="round"/>
+<text x="76" y="218" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="700" letter-spacing="-2" fill="#173d35">SUA VITRINE</text>
+<text x="76" y="300" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="800" letter-spacing="-3" fill="#2f7f73">DIGITAL</text>
+<text x="76" y="370" font-family="Arial,Helvetica,sans-serif" font-size="61" font-weight="700" letter-spacing="-2" fill="#e2765a">ABERTA 24H.</text>
+<text x="78" y="424" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#425e54">Seu site apresenta sua empresa</text>
+<text x="78" y="460" font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#425e54">mesmo quando a porta está fechada.</text>
+<g filter="url(#shadow)">
+ <rect x="245" y="620" width="590" height="365" rx="12" fill="#fffdf7" stroke="#173d35" stroke-width="4"/>
+ <rect x="280" y="654" width="520" height="292" rx="4" fill="#d6e7df"/>
+ <rect x="304" y="680" width="472" height="238" fill="#f8f3e8"/>
+ <rect x="330" y="704" width="420" height="64" rx="4" fill="#173d35"/>
+ <text x="540" y="746" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" letter-spacing="3" fill="#fffdf7">SUA EMPRESA</text>
+ <path d="M304 790H776L748 844H332Z" fill="#2f7f73"/>
+ <path d="M304 790H363L375 844H332Z M422 790H481L482 844H433Z M540 790H599L589 844H540Z M658 790H717L697 844H648Z" fill="#fff4df"/>
+ <path d="M304 790H776" stroke="#173d35" stroke-width="5"/>
+ <rect x="338" y="860" width="158" height="58" rx="3" fill="#b9d6cd" stroke="#173d35" stroke-width="3"/>
+ <path d="M417 860V918 M338 889H496" stroke="#fffdf7" stroke-width="4"/>
+ <rect x="520" y="850" width="112" height="96" rx="3" fill="#e57d60" stroke="#173d35" stroke-width="3"/>
+ <circle cx="613" cy="900" r="4" fill="#fffdf7"/>
+ <rect x="654" y="860" width="88" height="58" rx="3" fill="#b9d6cd" stroke="#173d35" stroke-width="3"/>
+ <path d="M698 860V918" stroke="#fffdf7" stroke-width="4"/>
+</g>
+<g>
+ <path d="M172 1005V895" stroke="#527e63" stroke-width="8" stroke-linecap="round"/>
+ <ellipse cx="148" cy="920" rx="36" ry="15" transform="rotate(28 148 920)" fill="#6d9a73"/>
+ <ellipse cx="196" cy="944" rx="37" ry="16" transform="rotate(-34 196 944)" fill="#2f7f73"/>
+ <ellipse cx="150" cy="967" rx="34" ry="15" transform="rotate(22 150 967)" fill="#93b58c"/>
+ <path d="M905 1008V885" stroke="#527e63" stroke-width="8" stroke-linecap="round"/>
+ <ellipse cx="879" cy="911" rx="36" ry="15" transform="rotate(26 879 911)" fill="#2f7f73"/>
+ <ellipse cx="928" cy="932" rx="36" ry="15" transform="rotate(-28 928 932)" fill="#6d9a73"/>
+ <ellipse cx="882" cy="963" rx="34" ry="15" transform="rotate(24 882 963)" fill="#93b58c"/>
+ <path d="M95 1020H985" stroke="#b6cabe" stroke-width="3"/>
+</g>
+<g transform="translate(760 520)">
+ <circle cx="0" cy="0" r="64" fill="#e57d60" stroke="#fffdf7" stroke-width="8"/>
+ <text x="0" y="-2" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#fffdf7">24</text>
+ <text x="0" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#fffdf7">HORAS</text>
+</g>
+<rect x="76" y="1080" width="928" height="155" rx="22" fill="#173d35"/>
+<text x="116" y="1128" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#c6dfd1">SUA EMPRESA MERECE SER ENCONTRADA</text>
+<text x="116" y="1182" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#fffdf7">Crie sua vitrine digital com a FELPS Sites.</text>
+<circle cx="935" cy="1158" r="34" fill="#e57d60"/>
+<path d="M917 1158H951M939 1146L951 1158L939 1170" stroke="#fffdf7" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="76" y="1292" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="4" fill="#54746a">DESIGN QUE TRABALHA PELO SEU NEGÓCIO.</text>
+<text x="1004" y="1292" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#173d35">FELPS SITES</text>
+</svg>
