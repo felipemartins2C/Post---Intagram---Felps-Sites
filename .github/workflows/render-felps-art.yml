@@ -16,22 +16,17 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install cairosvg
-      - name: Render changed SVG files to 1080x1350 PNG
+      - name: Render SVG artwork to 1080x1350 PNG
         run: |
-          CHANGED=$(git diff --name-only HEAD^ HEAD -- 'artes/*.svg')
-          if [ -z "$CHANGED" ]; then
-            echo "No SVG changed in this commit."
-            exit 0
-          fi
-          while IFS= read -r file; do
-            [ -z "$file" ] && continue
+          for file in artes/*.svg; do
+            [ -f "$file" ] || continue
             output="${file%.svg}.png"
             python - "$file" "$output" <<'PY'
           import sys, cairosvg
           cairosvg.svg2png(url=sys.argv[1], write_to=sys.argv[2], output_width=1080, output_height=1350)
           PY
             git add "$output"
-          done <<< "$CHANGED"
+          done
           git diff --cached --quiet || (
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
