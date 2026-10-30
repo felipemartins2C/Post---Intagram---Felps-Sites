@@ -3,7 +3,7 @@ on:
   push:
     branches: [main, master]
     paths:
-      - 'artes/2026-10-29-teste-felps.svg'
+      - 'artes/*.svg'
       - '.github/workflows/render-felps-art.yml'
 permissions:
   contents: write
@@ -16,15 +16,25 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install cairosvg
-      - name: Render 1080x1350 PNG
+      - name: Render changed SVG files to 1080x1350 PNG
         run: |
-          python - <<'PY'
-          import cairosvg
-          cairosvg.svg2png(url='artes/2026-10-29-teste-felps.svg', write_to='artes/2026-10-29-teste-felps.png', output_width=1080, output_height=1350)
+          CHANGED=$(git diff --name-only HEAD^ HEAD -- 'artes/*.svg')
+          if [ -z "$CHANGED" ]; then
+            echo "No SVG changed in this commit."
+            exit 0
+          fi
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            output="${file%.svg}.png"
+            python - "$file" "$output" <<'PY'
+          import sys, cairosvg
+          cairosvg.svg2png(url=sys.argv[1], write_to=sys.argv[2], output_width=1080, output_height=1350)
           PY
-      - name: Commit rendered image
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add artes/2026-10-29-teste-felps.png
-          git diff --cached --quiet || (git commit -m "Render FELPS Instagram artwork" && git push)
+            git add "$output"
+          done <<< "$CHANGED"
+          git diff --cached --quiet || (
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Render FELPS Instagram artwork"
+            git push
+          )
