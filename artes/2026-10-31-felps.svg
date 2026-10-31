@@ -19,7 +19,7 @@
 <text x="68" y="588" font-family="Arial,Helvetica,sans-serif" font-size="95" font-weight="900" letter-spacing="-4" fill="#17264c">ENCONTRAR.</text>
 <text x="74" y="646" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#4e5878">Um site profissional ajuda sua marca</text>
 <text x="74" y="682" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#4e5878">a mostrar seu valor e facilitar o contato.</text>
-<!-- Abstract discovery orbit: no device mockup -->
+<!-- Abstract discovery orbit: no device mockup; original artwork 2026-10-31 -->
 <g filter="url(#shadow)">
   <circle cx="548" cy="905" r="205" fill="#fffdf8" stroke="#17264c" stroke-width="3"/>
   <circle cx="548" cy="905" r="166" fill="#edf0ff" stroke="#315cf5" stroke-width="3" stroke-dasharray="7 10"/>
