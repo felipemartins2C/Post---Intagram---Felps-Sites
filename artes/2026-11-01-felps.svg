@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080808"/><stop offset=".55" stop-color="#171512"/><stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0b0"/><stop offset=".22" stop-color="#d7a844"/><stop offset=".52" stop-color="#f7d879"/><stop offset=".78" stop-color="#9d6b20"/><stop offset="1" stop-color="#f1c75d"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#c08a2e" stop-opacity=".24"/><stop offset="1" stop-color="#c08a2e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b0"/><stop offset=".45" stop-color="#b7812c"/><stop offset=".72" stop-color="#f6d77a"/><stop offset="1" stop-color="#6f4a17"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#d7a844" stroke-opacity=".07" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+  <rect width="1080" height="1350" fill="url(#grid)"/>
+  <ellipse cx="790" cy="720" rx="450" ry="500" fill="url(#glow)"/>
+  <path d="M760 0H1080V320" fill="none" stroke="url(#gold)" stroke-width="2" opacity=".6"/>
+  <path d="M820 0H1080V260" fill="none" stroke="#d7a844" stroke-width="1" opacity=".22"/>
+  <circle cx="930" cy="112" r="5" fill="#f1c75d"/>
+  <circle cx="964" cy="112" r="5" fill="#f1c75d" opacity=".5"/>
+  <circle cx="998" cy="112" r="5" fill="#f1c75d" opacity=".25"/>
+  <text x="78" y="98" fill="#f8f5ed" font-family="Montserrat, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="5">FELPS</text>
+  <text x="206" y="98" fill="url(#gold)" font-family="Montserrat, Arial, sans-serif" font-size="31" font-weight="400" letter-spacing="4">SITES</text>
+  <rect x="78" y="124" width="68" height="4" rx="2" fill="url(#gold)"/>
+  <text x="78" y="222" fill="#d9d3c7" font-family="Montserrat, Arial, sans-serif" font-size="17" letter-spacing="4">PRESENÇA DIGITAL INTELIGENTE</text>
+  <text x="76" y="316" fill="#f8f5ed" font-family="Montserrat, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2">TRANSFORME</text>
+  <text x="76" y="390" fill="#f8f5ed" font-family="Montserrat, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2">CLIQUES EM</text>
+  <text x="76" y="464" fill="url(#gold)" font-family="Montserrat, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-2">OPORTUNIDADES.</text>
+  <rect x="78" y="500" width="265" height="5" rx="2.5" fill="url(#gold)"/>
+  <text x="78" y="558" fill="#dedbd4" font-family="Montserrat, Arial, sans-serif" font-size="25">Um site profissional apresenta</text>
+  <text x="78" y="594" fill="#dedbd4" font-family="Montserrat, Arial, sans-serif" font-size="25">sua empresa com clareza, fortalece</text>
+  <text x="78" y="630" fill="#dedbd4" font-family="Montserrat, Arial, sans-serif" font-size="25">a confiança e facilita o contato.</text>
+  <!-- alvo escultórico -->
+  <ellipse cx="746" cy="1000" rx="290" ry="46" fill="#000" opacity=".65" filter="url(#shadow)"/>
+  <g transform="rotate(-13 748 890)">
+    <circle cx="748" cy="890" r="255" fill="#080808" stroke="#3c2b15" stroke-width="3"/>
+    <circle cx="748" cy="890" r="232" fill="none" stroke="url(#ring)" stroke-width="24"/>
+    <circle cx="748" cy="890" r="185" fill="#11100e" stroke="#a97829" stroke-width="3"/>
+    <circle cx="748" cy="890" r="151" fill="none" stroke="url(#ring)" stroke-width="24"/>
+    <circle cx="748" cy="890" r="104" fill="#080808" stroke="#7e571e" stroke-width="3"/>
+    <circle cx="748" cy="890" r="69" fill="none" stroke="url(#ring)" stroke-width="25"/>
+    <circle cx="748" cy="890" r="20" fill="url(#gold)"/>
+    <circle cx="748" cy="890" r="7" fill="#17120a"/>
+  </g>
+  <!-- flecha metálica apontando para o centro -->
+  <g transform="rotate(-13 748 890)">
+    <path d="M900 650L770 856" fill="none" stroke="#000" stroke-width="20" stroke-linecap="round" opacity=".6"/>
+    <path d="M889 641L760 847" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M886 640L925 627L907 666Z" fill="url(#gold)"/>
+    <path d="M760 847L746 871L773 858Z" fill="#f8e4a0"/>
+    <path d="M884 643L906 654" stroke="#fff1b7" stroke-width="3" opacity=".8"/>
+  </g>
+  <path d="M78 704H430" stroke="#d4a347" stroke-opacity=".35" stroke-width="1"/>
+  <g font-family="Montserrat, Arial, sans-serif">
+    <circle cx="91" cy="754" r="11" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M86 754L90 758L98 748" fill="none" stroke="#f4d47b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="119" y="762" fill="#f6f1e7" font-size="21">Mais clareza para sua marca</text>
+    <circle cx="91" cy="802" r="11" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M86 802L90 806L98 796" fill="none" stroke="#f4d47b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="119" y="810" fill="#f6f1e7" font-size="21">Mais confiança para o cliente</text>
+    <circle cx="91" cy="850" r="11" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M86 850L90 854L98 844" fill="none" stroke="#f4d47b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="119" y="858" fill="#f6f1e7" font-size="21">Mais caminhos para o contato</text>
+  </g>
+  <rect x="78" y="1135" width="390" height="74" rx="37" fill="url(#gold)"/>
+  <text x="273" y="1182" text-anchor="middle" fill="#17110a" font-family="Montserrat, Arial, sans-serif" font-size="23" font-weight="700">VAMOS CRIAR SEU SITE?</text>
+  <text x="78" y="1262" fill="#f8f5ed" font-family="Montserrat, Arial, sans-serif" font-size="19" letter-spacing="2">SITES QUE CONECTAM</text>
+  <text x="1000" y="1262" text-anchor="end" fill="#b9a67e" font-family="Montserrat, Arial, sans-serif" font-size="15" letter-spacing="3">FELPS SITES</text>
+  <path d="M78 1287H1002" stroke="url(#gold)" stroke-width="1" opacity=".55"/>
+</svg>
