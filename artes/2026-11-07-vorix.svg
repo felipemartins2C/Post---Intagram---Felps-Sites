@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#48c5ff"/><stop offset=".48" stop-color="#0879ed"/><stop offset="1" stop-color="#003d9e"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".55" stop-color="#bfc8d4"/><stop offset="1" stop-color="#788596"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#006bdb" stop-opacity=".5"/><stop offset="1" stop-color="#06101d" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="45"/></filter>
+ <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#18334d" stroke-width="1" opacity=".32"/></pattern>
+</defs>
+<rect width="1080" height="1350" fill="#05090f"/><rect width="1080" height="1350" fill="url(#grid)"/>
+<ellipse cx="930" cy="660" rx="430" ry="520" fill="url(#glow)" filter="url(#blur)"/>
+<path d="M760 0L1080 0 1080 1350 960 1350 600 610Z" fill="#0a1727" opacity=".6"/>
+<path d="M720 380L930 590 1080 440 1080 590 930 740 720 530Z" fill="url(#blue)" opacity=".95"/>
+<path d="M900 380L1080 560 1080 710 900 530 720 710 720 560Z" fill="#aeb9c8" opacity=".18"/>
+<path d="M775 445L915 585 1055 445" fill="none" stroke="#75cfff" stroke-width="4" opacity=".7"/>
+<path d="M70 250H260" stroke="#168eff" stroke-width="5"/>
+<text x="72" y="150" fill="url(#silver)" font-family="Arial,sans-serif" font-size="84" font-weight="700" letter-spacing="7">VORI</text>
+<text x="310" y="150" fill="url(#blue)" font-family="Arial,sans-serif" font-size="84" font-weight="700" letter-spacing="2">X</text>
+<text x="76" y="205" fill="#9ba8b8" font-family="Arial,sans-serif" font-size="20" letter-spacing="7">SITES  •  SISTEMAS  •  SOLUÇÕES DIGITAIS</text>
+<text x="72" y="410" fill="#f5f7fb" font-family="Arial,sans-serif" font-size="72" font-weight="700">SUA PRESENÇA</text>
+<text x="72" y="495" fill="#f5f7fb" font-family="Arial,sans-serif" font-size="72" font-weight="700">DIGITAL,</text>
+<text x="72" y="580" fill="url(#blue)" font-family="Arial,sans-serif" font-size="86" font-weight="700">SEM LIMITES.</text>
+<text x="76" y="675" fill="#d0d8e2" font-family="Arial,sans-serif" font-size="32">Tecnologia que transforma ideias</text>
+<text x="76" y="720" fill="#d0d8e2" font-family="Arial,sans-serif" font-size="32">em experiências digitais marcantes.</text>
+<g transform="translate(76 850)">
+ <circle cx="35" cy="35" r="29" fill="none" stroke="#168eff" stroke-width="3"/><path d="M20 35l11 11 22-25" fill="none" stroke="#e7eef7" stroke-width="4"/>
+ <text x="90" y="45" fill="#f2f5f9" font-family="Arial,sans-serif" font-size="27" font-weight="600">Design estratégico</text>
+ <circle cx="35" cy="125" r="29" fill="none" stroke="#168eff" stroke-width="3"/><path d="M18 125h34M35 108v34" stroke="#e7eef7" stroke-width="4"/>
+ <text x="90" y="135" fill="#f2f5f9" font-family="Arial,sans-serif" font-size="27" font-weight="600">Desenvolvimento sob medida</text>
+ <circle cx="35" cy="215" r="29" fill="none" stroke="#168eff" stroke-width="3"/><path d="M17 235l12-22 11 10 17-28" fill="none" stroke="#e7eef7" stroke-width="4"/>
+ <text x="90" y="225" fill="#f2f5f9" font-family="Arial,sans-serif" font-size="27" font-weight="600">Performance e evolução</text>
+</g>
+<rect x="72" y="1170" width="570" height="104" rx="18" fill="none" stroke="#168eff" stroke-width="3"/>
+<text x="110" y="1235" fill="#f5f7fb" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="1">VAMOS CONSTRUIR O SEU?</text>
+<path d="M585 1218h44m-16-16 16 16-16 16" stroke="#168eff" stroke-width="4" fill="none"/>
+<text x="76" y="1315" fill="#8492a4" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">VORIX • TECNOLOGIA COM PROPÓSITO</text>
+</svg>
