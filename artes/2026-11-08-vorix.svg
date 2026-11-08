@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+ <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".48" stop-color="#aeb9c8"/><stop offset="1" stop-color="#596779"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#69d7ff"/><stop offset=".45" stop-color="#087cf0"/><stop offset="1" stop-color="#003b9c"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#087cf0" stop-opacity=".55"/><stop offset="1" stop-color="#06101b" stop-opacity="0"/></radialGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="24"/></filter>
+ <pattern id="micro" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#5e7894" opacity=".35"/></pattern>
+</defs>
+<rect width="1080" height="1350" fill="#070b12"/><rect width="1080" height="1350" fill="url(#micro)"/>
+<ellipse cx="760" cy="670" rx="420" ry="480" fill="url(#aura)" filter="url(#shadow)"/>
+<!-- monumental dimensional data prism, not a device mockup -->
+<g transform="translate(620 310) rotate(13)">
+ <path d="M0 100L245 0 465 125 218 245Z" fill="#1b2a3d" stroke="#71849a" stroke-width="2"/>
+ <path d="M0 100L218 245 218 590 0 450Z" fill="#0b1726" stroke="#41566e" stroke-width="2"/>
+ <path d="M218 245L465 125 465 465 218 590Z" fill="#10253e" stroke="#5c7896" stroke-width="2"/>
+ <path d="M218 245L465 125 465 465 218 590Z" fill="url(#blue)" opacity=".25"/>
+ <path d="M42 120L240 40 410 137 215 232Z" fill="#0d1c2d" stroke="#8bb9e9" stroke-width="2"/>
+ <path d="M215 232L410 137 410 420 215 530Z" fill="#0d2440" stroke="#218ff4" stroke-width="3"/>
+ <path d="M215 232L410 137 410 420 215 530Z" fill="url(#blue)" opacity=".22"/>
+ <path d="M60 310L180 390 180 480 60 402Z" fill="#d8e2ef" opacity=".16"/>
+ <path d="M255 280L370 224M255 322L370 266M255 364L370 308" stroke="#9edfff" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+ <path d="M218 245L218 590" stroke="#b5c7d9" stroke-width="3" opacity=".55"/>
+</g>
+<g fill="none" stroke="#1788f4" opacity=".65"><path d="M80 760H430L505 685H640"/><path d="M90 790H390L470 710H575"/><circle cx="640" cy="685" r="8" fill="#1788f4"/></g>
+<text x="76" y="135" fill="url(#chrome)" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="5">VORI</text><text x="286" y="135" fill="url(#blue)" font-family="Arial,sans-serif" font-size="76" font-weight="700">X</text>
+<text x="80" y="190" fill="#8393a6" font-family="Arial,sans-serif" font-size="18" letter-spacing="6">ENGENHARIA DIGITAL • VORIX</text>
+<text x="76" y="390" fill="#f4f7fb" font-family="Arial,sans-serif" font-size="68" font-weight="700">NÃO É SÓ</text>
+<text x="76" y="470" fill="#f4f7fb" font-family="Arial,sans-serif" font-size="68" font-weight="700">ESTAR ONLINE.</text>
+<text x="76" y="555" fill="url(#blue)" font-family="Arial,sans-serif" font-size="73" font-weight="700">É IR ALÉM.</text>
+<text x="80" y="625" fill="#c5d0dd" font-family="Arial,sans-serif" font-size="27">Sites, sistemas e aplicativos</text>
+<text x="80" y="665" fill="#c5d0dd" font-family="Arial,sans-serif" font-size="27">construídos para mover negócios.</text>
+<g transform="translate(80 900)">
+ <path d="M0 0H410" stroke="#1c8cf2" stroke-width="3"/>
+ <text x="0" y="58" fill="#e9eff6" font-family="Arial,sans-serif" font-size="24" letter-spacing="2">IDEIA  →  EXPERIÊNCIA  →  EVOLUÇÃO</text>
+</g>
+<rect x="76" y="1080" width="510" height="100" rx="10" fill="url(#blue)"/>
+<text x="112" y="1142" fill="#fff" font-family="Arial,sans-serif" font-size="29" font-weight="700" letter-spacing="1">DESCUBRA A VORIX</text>
+<text x="80" y="1260" fill="#74869b" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">TECNOLOGIA QUE CONECTA VISÃO E RESULTADO</text>
+</svg>
