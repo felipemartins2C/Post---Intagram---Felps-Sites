@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+  <linearGradient id="header" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1420"/><stop offset=".55" stop-color="#172536"/><stop offset="1" stop-color="#0b111a"/></linearGradient>
+  <linearGradient id="silverLogo" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".42" stop-color="#d9e0e8"/><stop offset="1" stop-color="#8795a5"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#54c8ff"/><stop offset=".42" stop-color="#1679f5"/><stop offset="1" stop-color="#0641b8"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".55" stop-color="#f7f9fb"/><stop offset="1" stop-color="#e4e9ef"/></linearGradient>
+  <radialGradient id="coreGlow"><stop stop-color="#55caff" stop-opacity=".55"/><stop offset=".48" stop-color="#1679f5" stop-opacity=".16"/><stop offset="1" stop-color="#1679f5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="coreFace"><stop stop-color="#263f5a"/><stop offset=".72" stop-color="#14283d"/><stop offset="1" stop-color="#091725"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8192a5" stroke-width=".8" opacity=".17"/></pattern>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#69809a" opacity=".28"/></pattern>
+  <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="13"/><feOffset dy="13" dx="0" result="off"/><feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="blueGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="13" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="tinyShadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="4"/><feOffset dy="4"/><feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="mainClip"><rect x="0" y="190" width="1080" height="970"/></clipPath>
+</defs>
+<rect width="1080" height="190" fill="url(#header)"/>
+<path d="M0 165H1080" stroke="#3b536d" stroke-width="1" opacity=".55"/>
+<path d="M690 0L1080 0 1080 190 865 190Z" fill="#1d3550" opacity=".22"/>
+<path d="M760 0L1080 0 1080 190 980 190Z" fill="#2a4b6c" opacity=".12"/>
+<g opacity=".25" stroke="#6b8cac" fill="none">
+  <path d="M730 0V190M766 0V190M802 0V190M838 0V190M874 0V190M910 0V190M946 0V190M982 0V190M1018 0V190M1054 0V190" stroke-width="1"/>
+  <path d="M700 34H1080M700 70H1080M700 106H1080M700 142H1080" stroke-width="1"/>
+</g>
+<circle cx="926" cy="84" r="105" fill="url(#coreGlow)" opacity=".42"/>
+<text x="72" y="100" fill="url(#silverLogo)" font-family="Arial,sans-serif" font-size="68" font-weight="700" letter-spacing="2">VORI</text>
+<text x="255" y="100" fill="url(#blue)" font-family="Arial,sans-serif" font-size="68" font-weight="700">X</text>
+<rect x="74" y="120" width="46" height="4" rx="2" fill="url(#blue)"/>
+<text x="74" y="151" fill="#aab9c9" font-family="Arial,sans-serif" font-size="14" letter-spacing="4">ENGENHARIA DIGITAL</text>
+<text x="1000" y="70" text-anchor="end" fill="#d9e3ed" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">SITES  /  SISTEMAS  /  APLICATIVOS</text>
+<text x="1000" y="101" text-anchor="end" fill="#7f98b1" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">ESTRATÉGIA • DESIGN • TECNOLOGIA</text>
+<path d="M914 132H1000" stroke="#2f8df4" stroke-width="2"/>
+<circle cx="908" cy="132" r="3" fill="#56c8ff"/>
+<rect y="190" width="1080" height="970" fill="#edf1f4"/>
+<rect y="190" width="1080" height="970" fill="url(#grid)"/>
+<rect y="190" width="1080" height="970" fill="url(#dots)" opacity=".32"/>
+<path d="M0 190H1080" stroke="#ffffff" stroke-width="5" opacity=".7"/>
+<path d="M72 230V1118" stroke="#9aa9b8" stroke-width="1" opacity=".6"/>
+<g fill="#718196" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">
+ <text x="48" y="250" transform="rotate(-90 48 250)">VORIX / DIGITAL ECOSYSTEM</text>
+ <text x="48" y="1110" transform="rotate(-90 48 1110)">01—04 / CONNECTED STRUCTURE</text>
+</g>
+<text x="96" y="278" fill="#2677d9" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4">ARQUITETURA DIGITAL PARA NEGÓCIOS EM MOVIMENTO</text>
+<text x="91" y="374" fill="#111d2a" font-family="Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-4">TUDO</text>
+<text x="91" y="466" fill="#126be0" font-family="Arial,sans-serif" font-size="88" font-weight="800" letter-spacing="-4">CONECTADO.</text>
+<text x="96" y="520" fill="#3f5062" font-family="Arial,sans-serif" font-size="25">Sites, sistemas e aplicativos pensados</text>
+<text x="96" y="556" fill="#3f5062" font-family="Arial,sans-serif" font-size="25">para trabalhar como um só ecossistema.</text>
+<path d="M96 579H366" stroke="#1b7ced" stroke-width="3"/>
+<path d="M376 579H425" stroke="#aab7c5" stroke-width="1"/>
+<text x="1000" y="278" text-anchor="end" fill="#8a98a8" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">FIG. 01</text>
+<text x="1000" y="300" text-anchor="end" fill="#8a98a8" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">CONNECTED BY DESIGN</text>
+<g clip-path="url(#mainClip)">
+  <ellipse cx="540" cy="842" rx="445" ry="246" fill="none" stroke="#b9c7d4" stroke-width="1.4" stroke-dasharray="3 8" transform="rotate(-8 540 842)"/>
+  <ellipse cx="540" cy="842" rx="380" ry="205" fill="none" stroke="#c7d2dc" stroke-width="1" transform="rotate(12 540 842)"/>
+  <ellipse cx="540" cy="842" rx="315" ry="166" fill="none" stroke="#d4dde5" stroke-width="1" stroke-dasharray="2 7" transform="rotate(-17 540 842)"/>
+  <path d="M540 840C470 760 390 720 345 680S260 650 230 650" fill="none" stroke="#a8b8c8" stroke-width="9" opacity=".28"/>
+  <path d="M540 840C470 760 390 720 345 680S260 650 230 650" fill="none" stroke="#267fe8" stroke-width="2.5"/>
+  <path d="M540 840C625 765 685 710 750 674S830 650 855 650" fill="none" stroke="#a8b8c8" stroke-width="9" opacity=".28"/>
+  <path d="M540 840C625 765 685 710 750 674S830 650 855 650" fill="none" stroke="#267fe8" stroke-width="2.5"/>
+  <path d="M540 840C455 900 390 957 340 985S265 1000 230 1000" fill="none" stroke="#a8b8c8" stroke-width="9" opacity=".28"/>
+  <path d="M540 840C455 900 390 957 340 985S265 1000 230 1000" fill="none" stroke="#267fe8" stroke-width="2.5"/>
+  <path d="M540 840C625 905 690 960 752 985S830 1000 855 1000" fill="none" stroke="#a8b8c8" stroke-width="9" opacity=".28"/>
+  <path d="M540 840C625 905 690 960 752 985S830 1000 855 1000" fill="none" stroke="#267fe8" stroke-width="2.5"/>
+  <g fill="#ffffff" stroke="#1b78e8" stroke-width="3">
+    <circle cx="230" cy="650" r="8"/><circle cx="855" cy="650" r="8"/><circle cx="230" cy="1000" r="8"/><circle cx="855" cy="1000" r="8"/>
+    <circle cx="390" cy="720" r="5"/><circle cx="700" cy="724" r="5"/><circle cx="390" cy="946" r="5"/><circle cx="700" cy="946" r="5"/>
+  </g>
+  <g fill="#8da1b5" opacity=".8"><circle cx="460" cy="772" r="3"/><circle cx="618" cy="770" r="3"/><circle cx="465" cy="915" r="3"/><circle cx="618" cy="914" r="3"/></g>
+</g>
+<g stroke="#8ea2b6" fill="none" opacity=".72">
+ <path d="M110 710H135M110 720H125M945 710H970M955 720H970"/>
+ <path d="M110 1045H135M110 1055H125M945 1045H970M955 1055H970"/>
+ <path d="M540 606V624M530 616H550M540 1060V1078M530 1069H550"/>
+</g>
+<g filter="url(#softShadow)">
+ <rect x="95" y="606" width="270" height="130" rx="15" fill="url(#card)" stroke="#c5d0db" stroke-width="1.5"/>
+ <path d="M110 607H350" stroke="#ffffff" stroke-width="3" opacity=".9"/>
+ <rect x="113" y="625" width="74" height="91" rx="8" fill="#e8eef4" stroke="#b8c6d4"/>
+ <rect x="121" y="634" width="58" height="7" rx="3.5" fill="#b9c8d7"/>
+ <rect x="121" y="649" width="36" height="4" rx="2" fill="#c6d2de"/>
+ <rect x="121" y="661" width="50" height="31" rx="3" fill="#ffffff" stroke="#cbd6e0"/>
+ <path d="M126 685L137 674 145 680 158 667 167 676" fill="none" stroke="#247be4" stroke-width="2.5"/>
+ <rect x="121" y="700" width="40" height="4" rx="2" fill="#aab9c8"/>
+ <text x="204" y="642" fill="#247be4" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">01 / WEB</text>
+ <text x="204" y="677" fill="#142337" font-family="Arial,sans-serif" font-size="25" font-weight="700">SITES</text>
+ <text x="204" y="703" fill="#637487" font-family="Arial,sans-serif" font-size="14">Experiência &amp; presença</text>
+ <path d="M204 716H338" stroke="#d0d9e2" stroke-width="1"/>
+ <circle cx="343" cy="624" r="4" fill="#2c8df1"/>
+</g>
+<g filter="url(#softShadow)">
+ <rect x="715" y="606" width="270" height="130" rx="15" fill="url(#card)" stroke="#c5d0db" stroke-width="1.5"/>
+ <path d="M730 607H970" stroke="#ffffff" stroke-width="3" opacity=".9"/>
+ <rect x="733" y="625" width="74" height="91" rx="8" fill="#e8eef4" stroke="#b8c6d4"/>
+ <rect x="744" y="636" width="52" height="18" rx="4" fill="#ffffff" stroke="#c6d2de"/>
+ <rect x="744" y="661" width="23" height="40" rx="4" fill="#ffffff" stroke="#c6d2de"/>
+ <rect x="773" y="661" width="23" height="40" rx="4" fill="#dcecff" stroke="#93b8e7"/>
+ <path d="M750 644H789M750 669H760M750 678H760M779 670H789M779 679H789M779 688H789" stroke="#8ba0b5" stroke-width="2"/>
+ <text x="824" y="642" fill="#247be4" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">02 / OPERAÇÃO</text>
+ <text x="824" y="677" fill="#142337" font-family="Arial,sans-serif" font-size="25" font-weight="700">SISTEMAS</text>
+ <text x="824" y="703" fill="#637487" font-family="Arial,sans-serif" font-size="14">Processos &amp; gestão</text>
+ <path d="M824 716H958" stroke="#d0d9e2" stroke-width="1"/>
+ <circle cx="963" cy="624" r="4" fill="#2c8df1"/>
+</g>
+<g filter="url(#softShadow)">
+ <rect x="95" y="936" width="270" height="130" rx="15" fill="url(#card)" stroke="#c5d0db" stroke-width="1.5"/>
+ <path d="M110 937H350" stroke="#ffffff" stroke-width="3" opacity=".9"/>
+ <rect x="113" y="954" width="74" height="91" rx="8" fill="#e8eef4" stroke="#b8c6d4"/>
+ <rect x="129" y="962" width="42" height="72" rx="8" fill="#ffffff" stroke="#9eafc1" stroke-width="1.5"/>
+ <rect x="134" y="970" width="32" height="49" rx="3" fill="#e4effb"/>
+ <path d="M139 979H161M139 986H156M139 993H161M139 1000H153" stroke="#77a6df" stroke-width="2" stroke-linecap="round"/>
+ <circle cx="150" cy="1026" r="3" fill="#9aabba"/>
+ <text x="204" y="972" fill="#247be4" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">03 / MOBILIDADE</text>
+ <text x="204" y="1007" fill="#142337" font-family="Arial,sans-serif" font-size="25" font-weight="700">APLICATIVOS</text>
+ <text x="204" y="1033" fill="#637487" font-family="Arial,sans-serif" font-size="14">Acesso &amp; mobilidade</text>
+ <path d="M204 1046H338" stroke="#d0d9e2" stroke-width="1"/>
+ <circle cx="343" cy="954" r="4" fill="#2c8df1"/>
+</g>
+<g filter="url(#softShadow)">
+ <rect x="715" y="936" width="270" height="130" rx="15" fill="url(#card)" stroke="#c5d0db" stroke-width="1.5"/>
+ <path d="M730 937H970" stroke="#ffffff" stroke-width="3" opacity=".9"/>
+ <rect x="733" y="954" width="74" height="91" rx="8" fill="#e8eef4" stroke="#b8c6d4"/>
+ <g fill="none" stroke="#277ee5" stroke-width="2.5">
+   <path d="M750 977L789 977M750 977L770 1000M789 977L770 1000M770 1000L750 1022M770 1000L789 1022"/>
+ </g>
+ <g fill="#ffffff" stroke="#8cb5e5" stroke-width="2"><circle cx="750" cy="977" r="6"/><circle cx="789" cy="977" r="6"/><circle cx="770" cy="1000" r="7"/><circle cx="750" cy="1022" r="6"/><circle cx="789" cy="1022" r="6"/></g>
+ <text x="824" y="972" fill="#247be4" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">04 / CONEXÃO</text>
+ <text x="824" y="1007" fill="#142337" font-family="Arial,sans-serif" font-size="25" font-weight="700">INTEGRAÇÕES</text>
+ <text x="824" y="1033" fill="#637487" font-family="Arial,sans-serif" font-size="14">Conexões &amp; dados</text>
+ <path d="M824 1046H958" stroke="#d0d9e2" stroke-width="1"/>
+ <circle cx="963" cy="954" r="4" fill="#2c8df1"/>
+</g>
+<g filter="url(#blueGlow)"><circle cx="540" cy="840" r="190" fill="url(#coreGlow)"/></g>
+<g filter="url(#tinyShadow)">
+ <circle cx="540" cy="840" r="142" fill="#dbe3eb" stroke="#9fadb9" stroke-width="2"/>
+ <circle cx="540" cy="840" r="132" fill="none" stroke="#ffffff" stroke-width="5" opacity=".95"/>
+ <circle cx="540" cy="840" r="118" fill="none" stroke="#9eafbf" stroke-width="1.5" stroke-dasharray="2 7"/>
+ <circle cx="540" cy="840" r="105" fill="url(#coreFace)" stroke="#5c7187" stroke-width="2"/>
+ <circle cx="540" cy="840" r="91" fill="none" stroke="#47749e" stroke-width="1.5"/>
+ <circle cx="540" cy="840" r="79" fill="none" stroke="#1b82f1" stroke-width="2" stroke-dasharray="34 9 5 9"/>
+ <path d="M540 742V758M540 922V938M442 840H458M622 840H638M471 771L482 782M598 898L609 909M609 771L598 782M482 898L471 909" stroke="#d9e5f0" stroke-width="3" stroke-linecap="round"/>
+ <text x="466" y="832" fill="url(#silverLogo)" font-family="Arial,sans-serif" font-size="38" font-weight="700" letter-spacing="1">VORI</text>
+ <text x="568" y="832" fill="#4bbcff" font-family="Arial,sans-serif" font-size="38" font-weight="700">X</text>
+ <path d="M480 852H600" stroke="#3c658c" stroke-width="1"/>
+ <text x="540" y="875" text-anchor="middle" fill="#a9c0d7" font-family="Arial,sans-serif" font-size="10" letter-spacing="3">DIGITAL CORE</text>
+</g>
+<g fill="none" stroke="#8095aa" opacity=".72">
+ <path d="M414 810H390V790H372M666 810H690V790H708M414 870H390V890H372M666 870H690V890H708" stroke-width="1.2"/>
+ <path d="M520 684V701M560 684V701M520 979V996M560 979V996" stroke-width="1.2"/>
+ <path d="M394 842H410M670 842H686M540 698V713M540 967V982" stroke-width="2"/>
+</g>
+<g fill="#1f7fe8"><circle cx="372" cy="790" r="3"/><circle cx="708" cy="790" r="3"/><circle cx="372" cy="890" r="3"/><circle cx="708" cy="890" r="3"/><circle cx="520" cy="684" r="3"/><circle cx="560" cy="684" r="3"/><circle cx="520" cy="996" r="3"/><circle cx="560" cy="996" r="3"/></g>
+<g opacity=".7" fill="#8ba0b5">
+ <rect x="402" y="640" width="4" height="18" rx="2"/><rect x="411" y="632" width="4" height="26" rx="2"/><rect x="420" y="645" width="4" height="13" rx="2"/>
+ <rect x="650" y="640" width="4" height="18" rx="2"/><rect x="659" y="632" width="4" height="26" rx="2"/><rect x="668" y="645" width="4" height="13" rx="2"/>
+ <rect x="402" y="1081" width="4" height="18" rx="2"/><rect x="411" y="1073" width="4" height="26" rx="2"/><rect x="420" y="1086" width="4" height="13" rx="2"/>
+ <rect x="650" y="1081" width="4" height="18" rx="2"/><rect x="659" y="1073" width="4" height="26" rx="2"/><rect x="668" y="1086" width="4" height="13" rx="2"/>
+</g>
+<text x="96" y="1124" fill="#8796a5" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">ESTRUTURA  /  EXPERIÊNCIA  /  EVOLUÇÃO</text>
+<text x="984" y="1124" text-anchor="end" fill="#8796a5" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">VORIX SYSTEMS • 2026</text>
+<rect y="1160" width="1080" height="190" fill="url(#header)"/>
+<path d="M0 1160H1080" stroke="url(#blue)" stroke-width="5"/>
+<path d="M760 1160L1080 1160 1080 1350 960 1350Z" fill="#1c3856" opacity=".25"/>
+<g opacity=".22" stroke="#7e9bb8" fill="none"><path d="M790 1180V1335M830 1180V1335M870 1180V1335M910 1180V1335M950 1180V1335M990 1180V1335M1030 1180V1335"/><path d="M770 1210H1080M770 1250H1080M770 1290H1080"/></g>
+<text x="76" y="1224" fill="#8cbdf2" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">DA IDEIA À ESTRUTURA DIGITAL</text>
+<text x="76" y="1280" fill="#f5f8fb" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-.5">TRAGA SEU PRÓXIMO PROJETO.</text>
+<text x="76" y="1317" fill="#b8c7d6" font-family="Arial,sans-serif" font-size="18">Conheça a VORIX e descubra o que podemos construir.</text>
+<g transform="translate(888 1220)">
+ <rect x="0" y="0" width="116" height="58" rx="29" fill="url(#blue)"/>
+ <path d="M36 29H78M63 14L78 29 63 44" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1005" y="1318" text-anchor="end" fill="#8198af" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">VORIX  /  DIGITAL PARTNER</text>
+</svg>
