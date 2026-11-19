@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b121b"/><stop offset=".55" stop-color="#26333e"/><stop offset="1" stop-color="#080e15"/></linearGradient>
+<linearGradient id="metal" x2="0" y2="1"><stop stop-color="#edf2f4"/><stop offset=".5" stop-color="#91a0aa"/><stop offset="1" stop-color="#344653"/></linearGradient>
+<linearGradient id="carton" x2="1" y2="1"><stop stop-color="#e1d8c9"/><stop offset=".6" stop-color="#a99f91"/><stop offset="1" stop-color="#5e6669"/></linearGradient>
+<linearGradient id="blue" x2="1" y2="1"><stop stop-color="#8ceaff"/><stop offset=".48" stop-color="#2999ff"/><stop offset="1" stop-color="#1249a8"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#218fff" stop-opacity=".48"/><stop offset="1" stop-color="#218fff" stop-opacity="0"/></radialGradient>
+<pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="4" cy="6" r=".7" fill="#fff" opacity=".12"/><circle cx="19" cy="20" r=".6" fill="#fff" opacity=".08"/></pattern>
+<filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dy="12"/><feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glowBlue"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1080" height="1350" fill="url(#bg)"/><rect width="1080" height="1350" fill="url(#grain)"/><circle cx="735" cy="820" r="440" fill="url(#glow)"/>
+<path d="M0 0H1080V164C760 190 390 145 0 206Z" fill="#060c13"/><path d="M0 166C350 130 700 206 1080 160" fill="none" stroke="#2e8fdc" stroke-width="2"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" font-weight="800"><text x="68" y="95" font-size="58" fill="#f4f7fa">VORI</text><text x="228" y="95" font-size="58" fill="url(#blue)">X</text></g>
+<text x="72" y="125" font-family="Arial,sans-serif" font-size="10" letter-spacing="3" fill="#91a7b9">ENGENHARIA DIGITAL</text>
+<text x="1008" y="70" text-anchor="end" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#eaf2f8">SITES / SISTEMAS / APLICATIVOS</text>
+<path d="M72 202H218" stroke="url(#blue)" stroke-width="4"/><text x="72" y="236" font-family="Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="3" fill="#77d7ff">GESTÃO / ESTOQUE</text>
+<text x="66" y="328" font-family="Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-3" fill="#f6f8fa">ESTOQUE NO</text>
+<text x="66" y="414" font-family="Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-3" fill="url(#blue)">ESCURO CUSTA CARO.</text>
+<text x="72" y="456" font-family="Arial,sans-serif" font-size="19" fill="#c7d2da">Conferências em vários lugares geram retrabalho</text>
+<text x="72" y="484" font-family="Arial,sans-serif" font-size="19" fill="#c7d2da">e deixam decisões dependentes de informação dispersa.</text>
+<!-- warehouse perspective -->
+<path d="M0 575L1080 470V1195L0 1310Z" fill="#0b151f" opacity=".72"/>
+<path d="M72 550L1015 455V1122L72 1214Z" fill="#172630" stroke="#8999a5" stroke-opacity=".5" stroke-width="3"/>
+<g stroke="#778994" stroke-width="3" opacity=".25"><path d="M110 540V1209M330 518V1186M550 496V1164M770 474V1142M990 452V1120"/><path d="M72 690L1015 595M72 885L1015 790M72 1080L1015 985"/></g>
+<g filter="url(#shadow)">
+<path d="M94 660L1030 565L1035 608L98 704Z" fill="url(#metal)"/><path d="M94 860L1032 765L1037 808L98 904Z" fill="url(#metal)"/><path d="M94 1060L1034 965L1039 1008L98 1104Z" fill="url(#metal)"/>
+<path d="M112 528L151 524V1118L112 1122Z" fill="url(#metal)"/><path d="M335 506L374 502V1095L335 1099Z" fill="url(#metal)"/><path d="M558 484L597 480V1073L558 1077Z" fill="url(#metal)"/><path d="M781 462L820 458V1051L781 1055Z" fill="url(#metal)"/><path d="M996 441L1030 438V1030L996 1033Z" fill="url(#metal)"/>
+</g>
+<!-- cartons -->
+<g filter="url(#shadow)">
+<g><path d="M165 552L276 541V634L165 645Z" fill="url(#carton)"/><path d="M165 552L204 525L315 514L276 541Z" fill="#eee4d3"/><path d="M276 541L315 514V607L276 634Z" fill="#59636a"/><path d="M188 565L252 559V611L188 617Z" fill="#24313a" opacity=".35"/></g>
+<g><path d="M405 529L516 518V611L405 622Z" fill="#6e7778"/><path d="M405 529L444 502L555 491L516 518Z" fill="#d7d0c3"/><path d="M516 518L555 491V584L516 611Z" fill="#424e55"/></g>
+<g><path d="M645 506L756 495V588L645 599Z" fill="url(#carton)"/><path d="M645 506L684 479L795 468L756 495Z" fill="#e9e0d1"/><path d="M756 495L795 468V561L756 588Z" fill="#535e64"/></g>
+<g><path d="M862 485L973 474V567L862 578Z" fill="#747b7b"/><path d="M862 485L901 458L1012 447L973 474Z" fill="#d6d0c4"/><path d="M973 474L1012 447V540L973 567Z" fill="#434e55"/></g>
+<g><path d="M160 750L271 739V832L160 843Z" fill="#747b7b"/><path d="M160 750L199 723L310 712L271 739Z" fill="#d6d0c4"/><path d="M271 739L310 712V805L271 832Z" fill="#434e55"/></g>
+<g><path d="M405 727L516 716V809L405 820Z" fill="url(#carton)"/><path d="M405 727L444 700L555 689L516 716Z" fill="#e9e0d1"/><path d="M516 716L555 689V782L516 809Z" fill="#535e64"/></g>
+<g><path d="M645 704L756 693V786L645 797Z" fill="#747b7b"/><path d="M645 704L684 677L795 666L756 693Z" fill="#d6d0c4"/><path d="M756 693L795 666V759L756 786Z" fill="#434e55"/></g>
+<g><path d="M862 683L973 672V765L862 776Z" fill="url(#carton)"/><path d="M862 683L901 656L1012 645L973 672Z" fill="#e9e0d1"/><path d="M973 672L1012 645V738L973 765Z" fill="#535e64"/></g>
+<g><path d="M160 948L271 937V1030L160 1041Z" fill="url(#carton)"/><path d="M160 948L199 921L310 910L271 937Z" fill="#e9e0d1"/><path d="M271 937L310 910V1003L271 1030Z" fill="#535e64"/></g>
+<g><path d="M405 925L516 914V1007L405 1018Z" fill="#747b7b"/><path d="M405 925L444 898L555 887L516 914Z" fill="#d6d0c4"/><path d="M516 914L555 887V980L516 1007Z" fill="#434e55"/></g>
+<g><path d="M862 881L973 870V963L862 974Z" fill="#747b7b"/><path d="M862 881L901 854L1012 843L973 870Z" fill="#d6d0c4"/><path d="M973 870L1012 843V936L973 963Z" fill="#434e55"/></g>
+</g>
+<!-- uncertain inventory slot -->
+<path d="M625 875L835 854V1050L625 1071Z" fill="#071521" stroke="#62cfff" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M607 888L852 864" stroke="url(#blue)" stroke-width="38" opacity=".7" filter="url(#glowBlue)"/><path d="M607 888L852 864" stroke="#d1f7ff" stroke-width="3"/>
+<text x="730" y="956" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="800" fill="#f5fbff">SALDO?</text><text x="730" y="984" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.8" fill="#83d9ff">CONFERÊNCIA MANUAL</text>
+<g filter="url(#shadow)" font-family="Arial,sans-serif"><path d="M72 585H290V680H72Z" fill="#071827" stroke="#6bc9ff" stroke-opacity=".8"/><path d="M72 585H80V680H72Z" fill="url(#blue)"/><text x="98" y="619" font-size="11" font-weight="800" letter-spacing="2" fill="#7ddcff">ENTRADAS</text><text x="98" y="650" font-size="16" font-weight="700" fill="#fff">Registro centralizado</text><path d="M790 1080H1005V1173H790Z" fill="#071827" stroke="#6bc9ff" stroke-opacity=".8"/><path d="M790 1080H798V1173H790Z" fill="url(#blue)"/><text x="816" y="1114" font-size="11" font-weight="800" letter-spacing="2" fill="#7ddcff">SAÍDAS</text><text x="816" y="1145" font-size="16" font-weight="700" fill="#fff">Pedidos atualizados</text></g>
+<path d="M0 1220C320 1188 720 1250 1080 1176V1350H0Z" fill="#060d15"/><path d="M0 1220C320 1188 720 1250 1080 1176" fill="none" stroke="url(#blue)" stroke-width="4"/>
+<text x="72" y="1266" font-family="Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="2.2" fill="#7bd9ff">UM SISTEMA SOB MEDIDA PODE CENTRALIZAR</text><text x="72" y="1302" font-family="Arial,sans-serif" font-size="19" fill="#eaf1f6">entradas, saídas e pedidos em uma visão mais clara.</text>
+<text x="1008" y="1266" text-anchor="end" font-family="Arial,sans-serif" font-size="17" font-weight="800" fill="#fff">CONHEÇA A VORIX →</text><text x="72" y="1331" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.6" fill="#8299ac">VORIX / SITES • SISTEMAS • APLICATIVOS</text><text x="1008" y="1331" text-anchor="end" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.2" fill="#8299ac">VORIX-FELPS.VERCEL.APP</text>
+</svg>

@@ -1,4 +1,4 @@
-name: Render FELPS Instagram art
+name: Render VORIX artwork
 on:
   push:
     branches: [main, master]
@@ -16,21 +16,21 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install cairosvg
-      - name: Render SVG artwork to 1080x1350 PNG
+      - name: Render SVG artwork at 1080px wide, preserving source aspect ratio
         run: |
           for file in artes/*.svg; do
             [ -f "$file" ] || continue
             output="${file%.svg}.png"
             python - "$file" "$output" <<'PY'
           import sys, cairosvg
-          cairosvg.svg2png(url=sys.argv[1], write_to=sys.argv[2], output_width=1080, output_height=1350)
+          cairosvg.svg2png(url=sys.argv[1], write_to=sys.argv[2], output_width=1080)
           PY
             git add "$output"
           done
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "Render FELPS Instagram artwork"
+            git commit -m "Render VORIX artwork"
             git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
