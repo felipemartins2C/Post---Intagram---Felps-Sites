@@ -74,7 +74,7 @@
  </g>
 </g>
 <!-- industrial rotary stamping head -->
-<g transform="translate(520 920)">
+<g transform="translate(520 1100) scale(.82)">
  <path d="M-325 -25L-285 -190L280 -224L330 -40Z" fill="#263a48" stroke="#7f939e" stroke-width="5"/>
  <path d="M-288 -182L275 -215L245 -265L-260 -236Z" fill="url(#steel)" stroke="#c6d1d5" stroke-width="3"/>
  <path d="M-260 -236L-210 -325L215 -350L275 -215Z" fill="#263b4a" stroke="#8296a1" stroke-width="4"/>
@@ -95,7 +95,7 @@
  <path d="M-325 -25L-285 30H285L330 -40" fill="none" stroke="#111d27" stroke-width="14"/>
 </g>
 <!-- manual hand operating a stamp -->
-<g transform="translate(790 990) rotate(-16)">
+<g transform="translate(790 1120) rotate(-16)">
  <path d="M0 95L-5 8Q-2 -24 28 -38L85 -62Q114 -74 129 -48L148 -16Q158 6 137 20L92 44L92 104Z" fill="#b9a08a" stroke="#e6d4c3" stroke-width="4"/>
  <path d="M20 -6L74 -34Q94 -42 108 -23L122 -2Q131 16 111 28L64 54L34 45Z" fill="#d0b59a"/>
  <path d="M-10 92L100 86L130 132L-5 141Z" fill="#1b2d39" stroke="#92a6b0" stroke-width="4"/>
