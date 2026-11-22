@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111b"/><stop offset=".5" stop-color="#172a37"/><stop offset="1" stop-color="#060d15"/></linearGradient>
+ <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e3e9e9"/><stop offset=".25" stop-color="#8597a1"/><stop offset=".58" stop-color="#3b505d"/><stop offset="1" stop-color="#172733"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#84eaff"/><stop offset=".45" stop-color="#218cf1"/><stop offset="1" stop-color="#0b3c91"/></linearGradient>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf5"/><stop offset=".7" stop-color="#d6d6ce"/><stop offset="1" stop-color="#9ba8ad"/></linearGradient>
+ <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe0a4"/><stop offset=".55" stop-color="#d28b48"/><stop offset="1" stop-color="#804b2e"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#218ef3" stop-opacity=".44"/><stop offset="1" stop-color="#218ef3" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#89a5b9" stroke-width=".7" opacity=".16"/></pattern>
+ <pattern id="paperLines" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M0 19H20" stroke="#526b7b" stroke-width=".8" opacity=".2"/></pattern>
+</defs>
+<rect width="1080" height="1920" fill="url(#bg)"/><rect width="1080" height="1920" fill="url(#grid)"/>
+<path d="M0 0H1080V228C760 270 360 190 0 260Z" fill="#050c13"/>
+<path d="M0 228C360 188 720 280 1080 228" fill="none" stroke="url(#blue)" stroke-width="4"/>
+<text x="66" y="116" font-family="Arial,Helvetica,sans-serif" font-size="63" font-weight="800" letter-spacing="1" fill="url(#steel)">VORI</text>
+<text x="235" y="116" font-family="Arial,Helvetica,sans-serif" font-size="63" font-weight="800" fill="url(#blue)">X</text>
+<text x="70" y="148" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="3.2" fill="#9db2c1">ENGENHARIA DIGITAL</text>
+<text x="1010" y="82" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#e6edf2">SITES / SISTEMAS / APLICATIVOS</text>
+<text x="72" y="334" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="800" letter-spacing="3" fill="#83dfff">PROCESSOS / AUTOMAÇÃO</text>
+<path d="M72 354H264" stroke="url(#blue)" stroke-width="4"/>
+<text x="62" y="478" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="800" letter-spacing="-4" fill="#f4f7f9">AINDA COPIA</text>
+<text x="62" y="568" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="800" letter-spacing="-4" fill="#f4f7f9">OS MESMOS</text>
+<text x="62" y="658" font-family="Arial,Helvetica,sans-serif" font-size="84" font-weight="800" letter-spacing="-4.5" fill="url(#blue)">DADOS?</text>
+<text x="72" y="720" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#c0d0d9">Retrabalho repetitivo ocupa o tempo da equipe</text>
+<text x="72" y="752" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#c0d0d9">e aumenta a chance de erro.</text>
+<!-- mechanical repetitive paper line -->
+<path d="M0 820L1080 760V1638L0 1710Z" fill="#0b1823"/>
+<path d="M0 820L1080 760" stroke="#5e7381" stroke-width="3" opacity=".6"/>
+<ellipse cx="526" cy="1250" rx="565" ry="420" fill="url(#glow)"/>
+<!-- floor and industrial rails -->
+<path d="M0 1470L1080 1395V1695L0 1770Z" fill="#0a141e"/>
+<path d="M0 1518L1080 1442M0 1608L1080 1532M0 1698L1080 1622" stroke="#5d7484" stroke-width="3" opacity=".32"/>
+<path d="M125 850L180 1650M945 800L900 1600" stroke="#7f929b" stroke-width="18" opacity=".18"/>
+<path d="M80 885L1000 830" stroke="#aebbc0" stroke-width="8" opacity=".24"/>
+<!-- repeating paper conveyor -->
+<path d="M56 1120L1020 1058L1020 1450L56 1515Z" fill="#101f2a" stroke="#536a79" stroke-width="4"/>
+<path d="M56 1120L1020 1058" stroke="#a9b8bf" stroke-width="10"/>
+<path d="M56 1515L1020 1450" stroke="#080e14" stroke-width="18"/>
+<path d="M90 1170L980 1112M90 1270L980 1212M90 1370L980 1312" stroke="#415a6a" stroke-width="3" opacity=".65"/>
+<g fill="#91a4ae" opacity=".7"><circle cx="112" cy="1155" r="13"/><circle cx="278" cy="1144" r="13"/><circle cx="444" cy="1133" r="13"/><circle cx="610" cy="1122" r="13"/><circle cx="776" cy="1111" r="13"/><circle cx="942" cy="1100" r="13"/><circle cx="112" cy="1478" r="13"/><circle cx="278" cy="1467" r="13"/><circle cx="444" cy="1456" r="13"/><circle cx="610" cy="1445" r="13"/><circle cx="776" cy="1434" r="13"/><circle cx="942" cy="1423" r="13"/></g>
+<!-- duplicate forms -->
+<g>
+ <g transform="translate(126 1040) rotate(-4)">
+  <path d="M0 0L162 -10L235 28L72 39Z" fill="#667985" opacity=".55"/>
+  <path d="M0 -20L162 -30L235 8L72 19Z" fill="url(#paper)" stroke="#fff" stroke-width="2"/>
+  <path d="M0 -20L72 19V119L0 80Z" fill="#a8b4b6"/><path d="M72 19L235 8V108L72 119Z" fill="#d2d8d4"/>
+  <path d="M18 -12L155 -21L210 7L73 16Z" fill="url(#paperLines)"/>
+  <path d="M18 12L145 4M18 29L145 21M18 46L145 38" stroke="#718491" stroke-width="3" opacity=".55"/>
+  <rect x="106" y="44" width="88" height="24" rx="3" fill="#c48b57" opacity=".85"/><text x="150" y="61" text-anchor="middle" font-family="Arial" font-size="11" font-weight="800" fill="#fff">REPETIR</text>
+ </g>
+ <g transform="translate(352 1026) rotate(-4)">
+  <path d="M0 0L162 -10L235 28L72 39Z" fill="#667985" opacity=".55"/>
+  <path d="M0 -20L162 -30L235 8L72 19Z" fill="url(#paper)" stroke="#fff" stroke-width="2"/>
+  <path d="M0 -20L72 19V119L0 80Z" fill="#a8b4b6"/><path d="M72 19L235 8V108L72 119Z" fill="#d2d8d4"/>
+  <path d="M18 -12L155 -21L210 7L73 16Z" fill="url(#paperLines)"/>
+  <path d="M18 12L145 4M18 29L145 21M18 46L145 38" stroke="#718491" stroke-width="3" opacity=".55"/>
+  <rect x="106" y="44" width="88" height="24" rx="3" fill="#c48b57" opacity=".85"/><text x="150" y="61" text-anchor="middle" font-family="Arial" font-size="11" font-weight="800" fill="#fff">REPETIR</text>
+ </g>
+ <g transform="translate(578 1012) rotate(-4)">
+  <path d="M0 0L162 -10L235 28L72 39Z" fill="#667985" opacity=".55"/>
+  <path d="M0 -20L162 -30L235 8L72 19Z" fill="url(#paper)" stroke="#fff" stroke-width="2"/>
+  <path d="M0 -20L72 19V119L0 80Z" fill="#a8b4b6"/><path d="M72 19L235 8V108L72 119Z" fill="#d2d8d4"/>
+  <path d="M18 -12L155 -21L210 7L73 16Z" fill="url(#paperLines)"/>
+  <path d="M18 12L145 4M18 29L145 21M18 46L145 38" stroke="#718491" stroke-width="3" opacity=".55"/>
+  <rect x="106" y="44" width="88" height="24" rx="3" fill="#c48b57" opacity=".85"/><text x="150" y="61" text-anchor="middle" font-family="Arial" font-size="11" font-weight="800" fill="#fff">REPETIR</text>
+ </g>
+ <g transform="translate(804 998) rotate(-4)">
+  <path d="M0 0L162 -10L235 28L72 39Z" fill="#667985" opacity=".55"/>
+  <path d="M0 -20L162 -30L235 8L72 19Z" fill="url(#paper)" stroke="#fff" stroke-width="2"/>
+  <path d="M0 -20L72 19V119L0 80Z" fill="#a8b4b6"/><path d="M72 19L235 8V108L72 119Z" fill="#d2d8d4"/>
+  <path d="M18 -12L155 -21L210 7L73 16Z" fill="url(#paperLines)"/>
+  <path d="M18 12L145 4M18 29L145 21M18 46L145 38" stroke="#718491" stroke-width="3" opacity=".55"/>
+  <rect x="106" y="44" width="88" height="24" rx="3" fill="#c48b57" opacity=".85"/><text x="150" y="61" text-anchor="middle" font-family="Arial" font-size="11" font-weight="800" fill="#fff">REPETIR</text>
+ </g>
+</g>
+<!-- industrial rotary stamping head -->
+<g transform="translate(520 920)">
+ <path d="M-325 -25L-285 -190L280 -224L330 -40Z" fill="#263a48" stroke="#7f939e" stroke-width="5"/>
+ <path d="M-288 -182L275 -215L245 -265L-260 -236Z" fill="url(#steel)" stroke="#c6d1d5" stroke-width="3"/>
+ <path d="M-260 -236L-210 -325L215 -350L275 -215Z" fill="#263b4a" stroke="#8296a1" stroke-width="4"/>
+ <path d="M-208 -322L-172 -385L174 -408L215 -350Z" fill="#111f2b" stroke="#728995" stroke-width="4"/>
+ <path d="M-170 -385L-146 -410L155 -430L174 -408Z" fill="#d3dbdc" opacity=".6"/>
+ <path d="M-255 -215L-210 -215L-184 -56L-235 -52Z" fill="#5e7480" stroke="#b8c4c8" stroke-width="3"/>
+ <path d="M208 -244L255 -246L280 -83L230 -80Z" fill="#5e7480" stroke="#b8c4c8" stroke-width="3"/>
+ <path d="M-218 -50L-180 8L-115 14L-135 -62Z" fill="url(#steel)" stroke="#9baeb7" stroke-width="3"/>
+ <path d="M-78 -58L-40 0L25 6L6 -70Z" fill="url(#steel)" stroke="#9baeb7" stroke-width="3"/>
+ <path d="M62 -66L98 -8L162 -2L143 -78Z" fill="url(#steel)" stroke="#9baeb7" stroke-width="3"/>
+ <path d="M-220 -60L-176 -67M-78 -67L-35 -74M62 -75L105 -82" stroke="#ffe0a4" stroke-width="5" opacity=".85"/>
+ <circle cx="0" cy="-270" r="118" fill="#0b1722" stroke="#a8b8c0" stroke-width="13"/>
+ <circle cx="0" cy="-270" r="93" fill="url(#steel)" stroke="#354d5c" stroke-width="5"/>
+ <circle cx="0" cy="-270" r="68" fill="#162a38" stroke="#7c929e" stroke-width="4"/>
+ <circle cx="0" cy="-270" r="38" fill="#0a1722" stroke="#a6b6bd" stroke-width="5"/>
+ <path d="M0 -338V-302M0 -238V-202M-68 -270H-32M32 -270H68M-48 -318L-25 -295M25 -245L48 -222M48 -318L25 -295M-25 -245L-48 -222" stroke="#e3e8e7" stroke-width="8" stroke-linecap="round"/>
+ <circle cx="0" cy="-270" r="11" fill="url(#blue)"/>
+ <path d="M-325 -25L-285 30H285L330 -40" fill="none" stroke="#111d27" stroke-width="14"/>
+</g>
+<!-- manual hand operating a stamp -->
+<g transform="translate(790 990) rotate(-16)">
+ <path d="M0 95L-5 8Q-2 -24 28 -38L85 -62Q114 -74 129 -48L148 -16Q158 6 137 20L92 44L92 104Z" fill="#b9a08a" stroke="#e6d4c3" stroke-width="4"/>
+ <path d="M20 -6L74 -34Q94 -42 108 -23L122 -2Q131 16 111 28L64 54L34 45Z" fill="#d0b59a"/>
+ <path d="M-10 92L100 86L130 132L-5 141Z" fill="#1b2d39" stroke="#92a6b0" stroke-width="4"/>
+ <path d="M14 97L82 93L100 120L17 124Z" fill="url(#amber)" stroke="#ffe1ad" stroke-width="2"/>
+</g>
+<!-- contrasting blue automated path -->
+<path d="M88 1375C215 1300 315 1360 430 1305S640 1195 770 1230S916 1292 1000 1205" fill="none" stroke="#0a3e73" stroke-width="40" opacity=".4"/>
+<path d="M88 1375C215 1300 315 1360 430 1305S640 1195 770 1230S916 1292 1000 1205" fill="none" stroke="url(#blue)" stroke-width="17"/>
+<path d="M88 1375C215 1300 315 1360 430 1305S640 1195 770 1230S916 1292 1000 1205" fill="none" stroke="#d4f7ff" stroke-width="3"/>
+<g fill="#dff8ff" stroke="#1c91ed" stroke-width="4"><circle cx="88" cy="1375" r="11"/><circle cx="430" cy="1305" r="11"/><circle cx="770" cy="1230" r="11"/><circle cx="1000" cy="1205" r="11"/></g>
+<!-- clean flow module -->
+<path d="M178 1450L891 1402L963 1446L247 1496Z" fill="#0c1d2a" stroke="#7393a6" stroke-width="3"/>
+<path d="M247 1496L963 1446V1592L247 1640Z" fill="#10283a" stroke="#41627a" stroke-width="3"/>
+<text x="290" y="1530" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="800" letter-spacing="2.5" fill="#80dcff">UM FLUXO DIGITAL PODE CUIDAR DO REPETITIVO</text>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="800">
+ <rect x="292" y="1550" width="184" height="53" rx="5" fill="#1d4968" stroke="#5c9bc2"/><text x="384" y="1583" text-anchor="middle" font-size="15" fill="#f4f9fb">CAPTURAR</text>
+ <path d="M480 1577H518" stroke="#77dfff" stroke-width="4"/><path d="M508 1567L518 1577L508 1587" fill="none" stroke="#77dfff" stroke-width="4"/>
+ <rect x="526" y="1550" width="184" height="53" rx="5" fill="#1d4968" stroke="#5c9bc2"/><text x="618" y="1583" text-anchor="middle" font-size="15" fill="#f4f9fb">ORGANIZAR</text>
+ <path d="M714 1577H752" stroke="#77dfff" stroke-width="4"/><path d="M742 1567L752 1577L742 1587" fill="none" stroke="#77dfff" stroke-width="4"/>
+ <rect x="760" y="1550" width="160" height="53" rx="5" fill="#1d4968" stroke="#5c9bc2"/><text x="840" y="1583" text-anchor="middle" font-size="15" fill="#f4f9fb">ATUALIZAR</text>
+</g>
+<!-- footer -->
+<path d="M0 1698L1080 1625V1920H0Z" fill="#050b12"/>
+<path d="M0 1698L1080 1625" stroke="url(#blue)" stroke-width="5"/>
+<text x="72" y="1768" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="800" letter-spacing="2.5" fill="#81ddff">MENOS REPETIÇÃO. MAIS TEMPO PARA O CLIENTE.</text>
+<text x="66" y="1830" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="800" fill="#f5f8fa">CONHEÇA A VORIX.</text>
+<text x="72" y="1876" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#c0ced7">Sistemas e aplicativos sob medida para sua operação.</text>
+<text x="1008" y="1816" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="800" letter-spacing="1" fill="#fff">VORIX-FELPS.VERCEL.APP</text>
+<path d="M790 1844H1008" stroke="#2d9af2" stroke-width="3"/>
+<text x="1008" y="1880" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="2" fill="#89a2b5">VORIX / ENGENHARIA DIGITAL</text>
+</svg>

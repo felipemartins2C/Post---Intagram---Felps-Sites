@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs>
+ <linearGradient id="paperBg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f0e8"/><stop offset=".56" stop-color="#e2ded5"/><stop offset="1" stop-color="#c8d1d4"/></linearGradient>
+ <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#263b4d"/><stop offset="1" stop-color="#091827"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#71ddff"/><stop offset=".48" stop-color="#1888ef"/><stop offset="1" stop-color="#0843a8"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".48" stop-color="#c8d1d8"/><stop offset="1" stop-color="#8796a2"/></linearGradient>
+ <linearGradient id="folder" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf8"/><stop offset=".55" stop-color="#d9d4c9"/><stop offset="1" stop-color="#a6afb1"/></linearGradient>
+ <linearGradient id="counter" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5b6870"/><stop offset=".18" stop-color="#263b4b"/><stop offset="1" stop-color="#101e2a"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8ffff" stop-opacity=".9"/><stop offset=".48" stop-color="#a9d7ed" stop-opacity=".42"/><stop offset="1" stop-color="#287ab3" stop-opacity=".18"/></linearGradient>
+ <radialGradient id="blueGlow"><stop stop-color="#3aaeff" stop-opacity=".38"/><stop offset="1" stop-color="#3aaeff" stop-opacity="0"/></radialGradient>
+ <pattern id="micro" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#536b7d" stroke-width=".7" opacity=".16"/><circle cx="5" cy="7" r=".8" fill="#607a8c" opacity=".22"/></pattern>
+ <pattern id="paperLines" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 17.5H18" stroke="#607789" stroke-width=".7" opacity=".2"/></pattern>
+</defs>
+<rect width="1080" height="1350" fill="url(#paperBg)"/><rect width="1080" height="1350" fill="url(#micro)"/>
+<path d="M0 0H1080V172C760 198 350 142 0 206Z" fill="#101e2a"/>
+<path d="M0 173C350 143 700 218 1080 172" fill="none" stroke="url(#blue)" stroke-width="3"/>
+<text x="66" y="103" font-family="Arial,Helvetica,sans-serif" font-size="61" font-weight="800" letter-spacing="1" fill="url(#silver)">VORI</text>
+<text x="229" y="103" font-family="Arial,Helvetica,sans-serif" font-size="61" font-weight="800" fill="url(#blue)">X</text>
+<text x="70" y="132" font-family="Arial,Helvetica,sans-serif" font-size="10" font-weight="700" letter-spacing="3.2" fill="#9db2c1">ENGENHARIA DIGITAL</text>
+<text x="1010" y="79" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#e6edf2">SITES / SISTEMAS / APLICATIVOS</text>
+<text x="72" y="244" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="800" letter-spacing="3.2" fill="#1a79c9">GESTÃO COMERCIAL / ORÇAMENTOS</text>
+<path d="M72 263H248" stroke="url(#blue)" stroke-width="4"/>
+<text x="65" y="355" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="800" letter-spacing="-3.8" fill="#12283a">ORÇAMENTO</text>
+<text x="65" y="441" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="800" letter-spacing="-3.8" fill="#176fc3">PARADO ESFRIA.</text>
+<text x="72" y="490" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#405565">Quando cada pedido depende de uma conferência manual,</text>
+<text x="72" y="520" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#405565">a resposta demora — e o cliente fica esperando.</text>
+<!-- architectural counter scene -->
+<path d="M0 590L1080 540V1148L0 1205Z" fill="#c2cbd0"/>
+<path d="M0 632L1080 575" stroke="#f8fbfc" stroke-width="3" opacity=".8"/>
+<path d="M0 1110L1080 1048" stroke="#8798a1" stroke-width="2" opacity=".55"/>
+<path d="M0 1170L1080 1104V1220L0 1282Z" fill="#aeb9be"/>
+<path d="M0 1170L1080 1104" stroke="#edf2f1" stroke-width="4" opacity=".8"/>
+<g opacity=".3" stroke="#718895" stroke-width="2"><path d="M120 650L310 1170M360 635L500 1158M650 620L700 1142M920 600L900 1127"/><path d="M0 820L1080 760M0 970L1080 910"/></g>
+<!-- glass partition and waiting customer -->
+<path d="M744 610L1020 595V1018L744 1033Z" fill="url(#glass)" stroke="#f8ffff" stroke-width="7"/>
+<path d="M770 640L995 628V987L770 1000Z" fill="none" stroke="#7899a9" stroke-width="2" opacity=".55"/>
+<path d="M882 635V994" stroke="#e8f2f4" stroke-width="4" opacity=".8"/>
+<path d="M752 778L1010 763" stroke="#e8f2f4" stroke-width="4" opacity=".8"/>
+<g transform="translate(885 846)">
+ <ellipse cx="0" cy="154" rx="74" ry="17" fill="#425565" opacity=".22"/>
+ <circle cx="0" cy="-56" r="36" fill="#344958"/>
+ <path d="M-44 -12Q0 -38 44 -12L62 118Q0 144 -62 118Z" fill="#536a78"/>
+ <path d="M-32 8L-66 90M32 8L70 78" stroke="#344958" stroke-width="17" stroke-linecap="round"/>
+ <path d="M-28 117L-38 171M28 117L42 171" stroke="#263a49" stroke-width="19" stroke-linecap="round"/>
+ <path d="M-47 -65Q0 -100 47 -65" fill="none" stroke="#a7b9c2" stroke-width="5" opacity=".55"/>
+</g>
+<path d="M784 958H988" stroke="#d8e5e9" stroke-width="3" opacity=".7"/>
+<rect x="795" y="900" width="176" height="42" rx="5" fill="#152b3d" opacity=".92"/>
+<text x="883" y="927" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#f1f6f8">AGUARDANDO</text>
+<!-- counter body -->
+<path d="M56 833L711 798L748 846L94 888Z" fill="#e9e5dc" stroke="#87959b" stroke-width="3"/>
+<path d="M94 888L748 846V1038L94 1085Z" fill="url(#counter)" stroke="#72818a" stroke-width="3"/>
+<path d="M94 1085L748 1038L748 1070L94 1118Z" fill="#0a1722"/>
+<path d="M126 925L712 887" stroke="#91a5b1" stroke-width="2" opacity=".35"/>
+<path d="M125 1026L712 988" stroke="#91a5b1" stroke-width="2" opacity=".2"/>
+<!-- piled quote folders -->
+<g>
+ <path d="M120 793L285 782L388 833L222 846Z" fill="#8d989b" opacity=".35"/>
+ <path d="M119 764L280 754L385 805L223 818Z" fill="#c3c6c1" stroke="#f9f6ee" stroke-width="3"/>
+ <path d="M119 764L223 818V850L119 797Z" fill="#8c999d"/>
+ <path d="M223 818L385 805V837L223 850Z" fill="#aab4b5"/>
+ <path d="M138 769L274 760L350 798L213 807Z" fill="url(#folder)" stroke="#fff" stroke-width="2"/>
+ <path d="M151 780L262 773L321 802L210 810Z" fill="url(#paperLines)"/>
+ <path d="M144 728L305 718L411 770L250 782Z" fill="#e9e6dc" stroke="#fff" stroke-width="3"/>
+ <path d="M144 728L250 782V814L144 760Z" fill="#a7b0b0"/>
+ <path d="M250 782L411 770V802L250 814Z" fill="#c4cbc7"/>
+ <path d="M164 733L296 725L375 764L243 772Z" fill="url(#folder)" stroke="#fff" stroke-width="2"/>
+ <path d="M176 744L286 737L346 766L236 773Z" fill="url(#paperLines)"/>
+ <path d="M178 690L332 680L438 731L283 743Z" fill="#f7f3e9" stroke="#fff" stroke-width="3"/>
+ <path d="M178 690L283 743V774L178 722Z" fill="#9aa7aa"/>
+ <path d="M283 743L438 731V763L283 774Z" fill="#c6cfce"/>
+ <path d="M196 697L325 689L403 726L274 735Z" fill="url(#folder)" stroke="#fff" stroke-width="2"/>
+ <path d="M208 707L315 701L376 730L269 737Z" fill="url(#paperLines)"/>
+ <path d="M218 657L367 648L472 698L322 708Z" fill="#d3d5cf" stroke="#fff" stroke-width="3"/>
+ <path d="M218 657L322 708V737L218 686Z" fill="#89989e"/>
+ <path d="M322 708L472 698V727L322 737Z" fill="#aab6b9"/>
+ <path d="M236 663L360 655L438 693L314 701Z" fill="#f4f0e7" stroke="#fff" stroke-width="2"/>
+</g>
+<!-- paper queue ribbon -->
+<path d="M365 736C470 708 510 744 526 785S604 843 660 819S706 780 748 789" fill="none" stroke="#657985" stroke-width="42" opacity=".28"/>
+<path d="M365 725C470 697 510 733 526 774S604 832 660 808S706 769 748 778" fill="none" stroke="#f4f0e7" stroke-width="27"/>
+<path d="M365 725C470 697 510 733 526 774S604 832 660 808S706 769 748 778" fill="none" stroke="#c3c9c6" stroke-width="2" stroke-dasharray="7 9"/>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="800">
+ <path d="M454 709L548 697L579 730L485 742Z" fill="#f8f4e9" stroke="#9aa6a8" stroke-width="2"/><text x="515" y="727" text-anchor="middle" font-size="12" fill="#475d6b">PEDIDO 01</text>
+ <path d="M534 777L631 765L661 799L564 812Z" fill="#e7e2d8" stroke="#9aa6a8" stroke-width="2"/><text x="596" y="795" text-anchor="middle" font-size="12" fill="#475d6b">PEDIDO 02</text>
+ <path d="M631 821L721 810L749 842L660 853Z" fill="#ddd9cf" stroke="#9aa6a8" stroke-width="2"/><text x="690" y="838" text-anchor="middle" font-size="12" fill="#475d6b">PEDIDO 03</text>
+</g>
+<!-- organized digital flow panel -->
+<path d="M502 883L697 871L727 889L531 902Z" fill="#071c2c" opacity=".35"/>
+<path d="M495 868L694 856L724 874L525 887Z" fill="#0b2234" stroke="#6d91a7" stroke-width="2"/>
+<path d="M525 887L724 874V1018L525 1031Z" fill="#102b40" stroke="#8fa5b1" stroke-width="2"/>
+<path d="M546 913L698 903" stroke="#6f8fa5" stroke-width="1.5"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="548" y="908" font-size="10" font-weight="800" letter-spacing="1.7" fill="#80d8ff">FLUXO ORGANIZADO</text>
+ <rect x="547" y="928" width="151" height="22" rx="3" fill="#1a4664"/><circle cx="560" cy="939" r="4" fill="#77dfff"/><text x="574" y="943" font-size="10" font-weight="700" fill="#eaf6fb">SOLICITAÇÃO</text>
+ <rect x="547" y="958" width="151" height="22" rx="3" fill="#1a4664"/><circle cx="560" cy="969" r="4" fill="#77dfff"/><text x="574" y="973" font-size="10" font-weight="700" fill="#eaf6fb">INFORMAÇÕES</text>
+ <rect x="547" y="988" width="151" height="22" rx="3" fill="#1a4664"/><circle cx="560" cy="999" r="4" fill="#77dfff"/><text x="574" y="1003" font-size="10" font-weight="700" fill="#eaf6fb">RESPOSTA</text>
+</g>
+<path d="M412 933C460 925 478 918 525 919" fill="none" stroke="url(#blue)" stroke-width="7"/>
+<path d="M500 909L525 919L502 932" fill="none" stroke="#8be7ff" stroke-width="4"/>
+<circle cx="465" cy="923" r="45" fill="url(#blueGlow)"/>
+<!-- foreground paper clip and stamp -->
+<g transform="translate(155 980) rotate(-9)">
+ <path d="M0 0V-44Q0 -70 24 -70Q48 -70 48 -44V18Q48 42 24 42Q0 42 0 18V-34" fill="none" stroke="#b9c5c8" stroke-width="8" stroke-linecap="round"/>
+ <path d="M10 -36V18Q10 30 24 30Q38 30 38 18V-44Q38 -60 24 -60Q10 -60 10 -44" fill="none" stroke="#f8ffff" stroke-width="2"/>
+</g>
+<g transform="translate(372 939) rotate(-12)">
+ <path d="M0 0L78 -5L95 42L-14 48Z" fill="#b56b56" stroke="#e7b4a0" stroke-width="3"/>
+ <text x="39" y="27" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="900" letter-spacing="1" fill="#fff1e8">PENDENTE</text>
+</g>
+<!-- footer -->
+<path d="M0 1168L1080 1107V1350H0Z" fill="#0d1c29"/>
+<path d="M0 1168L1080 1107" stroke="url(#blue)" stroke-width="5"/>
+<text x="70" y="1224" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="800" letter-spacing="2.4" fill="#7bdcff">UM SISTEMA SOB MEDIDA PODE ORGANIZAR</text>
+<text x="70" y="1262" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#f2f6f8">solicitações, informações e etapas do orçamento.</text>
+<text x="70" y="1311" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="800" fill="#fff">CONHEÇA A VORIX  →</text>
+<text x="1010" y="1310" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1" fill="#91a9ba">VORIX-FELPS.VERCEL.APP</text>
+</svg>
